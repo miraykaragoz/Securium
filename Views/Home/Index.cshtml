@@ -1,0 +1,77 @@
+﻿@{
+    ViewData["Title"] = "Anasayfa";
+}
+
+<section id="home" class="min-h-100vh flex justify-start items-center">
+    <div class="mx-5 md-mx-l5">
+        <div class="inline-block br-round bg-indigo-30 indigo-lightest p-2 fs-s2 mb-5">
+            <div class="inline-block bg-indigo indigo-lightest br-round px-3 py-1 mr-3 fs-s3">Hoşgeldiniz</div>
+            Şifre oluşturmak hiç bu kadar kolay olmamıştı!
+        </div>
+        <div>
+            <h1 class="white fs-l3 lh-2 md-fs-xl1 md-lh-1 fw-900 ">Güçlü ve Güvenli Şifreler <br />Oluşturmanın Yolu</h1>
+            <div class="br-8 mt-10 inline-flex">
+                <a href="/PasswordGenerator" style="text-decoration: none; width: 100%">
+                    <button class="button-lg bg-indigo-lightest-20 indigo-lightest focus-white fw-300 fs-s3 mr-0 br-l-0" style="width: 100%; color: white;">
+                        Şifre Oluştur
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="features" class="p-10 md-p-l5">
+    <div class="flex flex-column md-flex-row mx-auto">
+        <div class="w-100pc md-w-40pc">
+            <div class="br-8 p-5 m-5">
+                <h4 class="white fw-600 fs-m3 mb-5">Uzunluk Seçin</h4>
+                <div class="indigo-lightest fw-600 fs-m1 lh-3 opacity-50">
+                    Şifrenizin uzunluğunu belirleyin. Minimum 4, maksimum 20 karakter. Uzun şifreler, güvenliğinizi artırır.
+                </div>
+            </div>
+        </div>
+        <div class="w-100pc md-w-40pc">
+            <div class="br-8 p-5 m-5">
+                <h4 class="white fw-600 fs-m3 mb-5">Özellik Seçin</h4>
+                <div class="indigo-lightest fw-600 fs-m1 opacity-50">
+                    Şifrenizin hangi karakter türlerini içermesini istediğinizi seçin: büyük harf, küçük harf, rakam, özel karakter.
+                </div>
+            </div>
+        </div>
+        <div class="w-100pc md-w-40pc">
+            <div class="br-8 p-5 m-5">
+                <h4 class="white fw-600 fs-m3 mb-5">Oluşturun</h4>
+                <div class="indigo-lightest fw-600 fs-m1 opacity-50">
+                    Seçimlerinize göre güçlü bir şifre oluşturun. İstediğiniz zaman tekrar oluşturabilirsiniz.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="p-10 md-py-10">
+    <div class="w-100pc md-w-70pc mx-auto py-10">
+        <h2 class="white fs-l2 md-fs-xl1 fw-900 lh-2">
+            Şifre güvenliğiniz <span class="border-b bc-indigo bw-4">bizimle</span> artıyor!
+        </h2>
+    </div>
+</section>
+<section class="p-10 md-p-l5">
+    <div class="br-8 bg-indigo-lightest-10 p-5 md-p-l5 flex flex-wrap md-justify-between md-items-center">
+        <div class="w-100pc md-w-33pc">
+            <h2 class="white fs-m4 fw-800">Haberlerden Haberdar Olun!</h2>
+            <p class="fw-600 indigo-lightest opacity-40">
+                Yeni özelliklerden, güncellemelerden ve ipuçlarından ilk siz haberdar olun.
+            </p>
+        </div>
+        <div class="w-100pc md-w-50pc">
+            <form action="/NewsLetter" method="post" autocomplete="off" class="flex my-5">
+                <input type="text"
+                       class="input-lg flex-grow-1 bw-0 fw-200 bg-indigo-lightest-10 white ph-indigo-lightest focus-white opacity-80 fs-s3 py-5 br-r-0"
+                       name="Email" placeholder="E-posta Adresi" required>
+                <button type="submit" class="button-lg bg-indigo indigo-lightest fw-300 fs-s3 br-l-0">Üye Ol</button>
+            </form>
+        </div>
+    </div>
+</section>

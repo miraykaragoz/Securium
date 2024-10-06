@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Securium</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shorthandcss@1.1.1/dist/shorthand.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900&display=swap" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
+<body class="bg-black muli">
+    <nav class="w-100pc flex flex-column md-flex-row md-px-10 py-5 bg-black">
+        <div class="flex justify-between">
+            <a href="/" class="flex items-center p-2 mr-4 no-underline">
+                <img class="max-h-l2 w-auto" src="assets/images/logo.png" />
+            </a>
+            <a data-toggle="toggle-nav" data-target="#nav-items" href="#"
+               class="flex items-center ml-auto md-hidden indigo-lighter opacity-50 hover-opacity-100 ease-300 p-1 m-3">
+                <i data-feather="menu"></i>
+            </a>
+        </div>
+    </nav>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="p-5 md-p-l5 bg-indigo-lightest-10">
+        <div class="flex flex-wrap">
+            <div class="md-w-25pc mb-10">
+                <img src="~/assets/images/logo.png" class="w-l5">
+                <div class="white opacity-70 fs-s2 mt-4 md-pr-10">
+                    <p>Güvenliğinizi önemsiyoruz. Size en iyi hizmeti sunmak için sürekli çalışıyoruz. Sorularınız veya geri bildirimleriniz için bize ulaşmaktan çekinmeyin!</p>
+                </div>
+            </div>
+            <div class="w-100pc md-w-50pc">
+                
+            </div>
+            <div class="w-100pc md-w-25pc">
+                <div class="flex justify-around my-8">
+                    <a href="https://miraykaragoz.com.tr/" target="_blank" class="relative p-5 bg-indigo br-round white hover-scale-up-1 ease-400">
+                        <i data-feather="link" class="absolute-center h-4"></i>
+                    </a>
+                    <a href="https://github.com/miraykaragoz" target="_blank" class="relative p-5 bg-indigo br-round white hover-scale-up-1 ease-400">
+                        <i data-feather="github" class="absolute-center h-4"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/feed/" target="_blank" class="relative p-5 bg-indigo br-round white hover-scale-up-1 ease-400">
+                        <i data-feather="linkedin" class="absolute-center h-4"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+   
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
