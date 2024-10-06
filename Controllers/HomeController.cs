@@ -53,7 +53,7 @@ namespace PasswordGenerator.Controllers
             var client = new SmtpClient("smtp.eu.mailgun.org", 587)
             {
                 Credentials = new NetworkCredential("postmaster@bilgi.miraykaragoz.com.tr",
-                    "593f12a54d7b37b22ee27df74059c35d-8a084751-a9740350"),
+                    ""),
                 EnableSsl = true
             };
 
