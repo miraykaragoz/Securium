@@ -1,3 +1,3 @@
-Securium, özel verileriniz için güçlü ve benzersiz şifreler oluşturarak dijital güvenliğinizi güçlendirir. Kullanıcı dostu arayüzü ile güvenli şifreler üretmenize ve yönetmenize yardımcı olur. Securium ile dijital verilerinizi koruma yolunda sağlam bir adım atın!
+Securium strengthens your digital security by generating strong and unique passwords for your sensitive data. With its user-friendly interface, it helps you create and manage secure passwords effortlessly. Take a solid step towards protecting your digital information with Securium!
 
-🔗 Yayın linki: https://securium.miraykaragoz.com.tr/
+🔗 Live link: https://securium.miraykaragoz.com.tr/
